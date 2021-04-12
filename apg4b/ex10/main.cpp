@@ -10,13 +10,28 @@ int main()
   string a = "A:";
   string b = "B:";
 
-  rep(_, A)
+  // rep
+  // rep(_, A)
+  // {
+  //   a += "]";
+  // }
+  // rep(_, B)
+  // {
+  //   b += "]";
+  // }
+
+  // while
+  int i = 0;
+  while (i < A)
   {
     a += "]";
+    i++;
   }
-  rep(_, B)
+  int j = 0;
+  while (j < B)
   {
     b += "]";
+    j++;
   }
 
   cout << a << endl;
