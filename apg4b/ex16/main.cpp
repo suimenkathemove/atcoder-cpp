@@ -13,9 +13,9 @@ int main()
 
   string ans = "NO";
 
-  rep(i, A.size())
+  rep(i, A.size() - 1)
   {
-    if (i != A.size() - 1 && A[i] == A[i + 1])
+    if (A[i] == A[i + 1])
     {
       ans = "YES";
     }
